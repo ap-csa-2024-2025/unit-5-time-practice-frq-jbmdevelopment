@@ -4,6 +4,8 @@ public class Main
 {
   public static void main(String[] args)
   {
+    Time test = new Time(1, 2, 3);
+    System.out.println(test);
     // Test your tick method below using the Scanner class to
     // prompt the user for an initial time, and use the tick method
     // on that Time object.  Check that the resulting time is correct
