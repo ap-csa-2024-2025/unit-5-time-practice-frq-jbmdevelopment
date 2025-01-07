@@ -47,7 +47,17 @@ public class Time
   // TODO: Part F - write the tick method
   public void tick()
   {
-
+      if(seconds >= 60) {
+         minutes++;
+         seconds = 0;
+      }
+      if(minutes >= 60) {
+        hours++;
+        minutes = 0;
+      }
+      if(hours >= 24) {
+         hours = 0;
+      }
   }
 
   // TODO: Part G - write the add method
